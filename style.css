@@ -1,0 +1,56 @@
+#promo{
+    text-align:center;
+    padding: 40px;
+    background: url(images/background.jpg) no-repeat;
+    background-size: cover;
+}
+
+#promo .jumbotron{
+    border-radius: 20px;
+    padding: 40px;
+    /* background-color: rgba(255, 251, 35, 0.247); */
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+@media (max-width: 991px){
+#promo .jumbotron{
+    padding: 20px;
+}
+#promo {
+    padding: 20px;
+}
+}
+
+
+.site-section{
+    text-align: center;
+    padding: 90px 0;
+    background-color: rgba(116, 116, 116, 0.65);
+    border-radius: 20px;
+}
+
+.site-section h1{
+    font-weight: 800;
+    margin-bottom:50px;
+
+}
+
+.site-section #ranges{
+    max-width:300px !important;
+    margin: 0 auto;
+    font-size: 30px;
+}
+
+.question{
+    margin: 25px auto;
+    height : 14rem;
+    border-radius: 20px !important;
+    background-color: rgba(116, 116, 116, 0.65) !important;
+
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
