@@ -30,13 +30,13 @@
                     <h1 class="text-white">Slide Accordingly</h1>
                     <div id="ranges">
                         <label for="customRange3" class="form-label text-white">Sad - Happy</label>
-                        <input type="range" class="form-range" min="0" max="10" step="0.2" id="customRange3">
+                        <input type="range" class="form-range" min="0" max="10" step="0.1" id="sad_happy">
                         <label for="customRange3" class="form-label text-white">Stressed - Relaxed</label>
-                        <input type="range" class="form-range" min="0" max="10" step="0.2" id="customRange3">
+                        <input type="range" class="form-range" min="0" max="10" step="0.1" id="stressed_relaxed">
                         <label for="customRange3" class="form-label text-white">Lonely - Romantic</label>
-                        <input type="range" class="form-range" min="0" max="10" step="0.2" id="customRange3">
+                        <input type="range" class="form-range" min="0" max="10" step="0.1" id="lonely_romantic">
                         <label for="customRange3" class="form-label text-white">CouchPotato - Party</label>
-                        <input type="range" class="form-range" min="0" max="10" step="0.2" id="customRange3">
+                        <input type="range" class="form-range" min="0" max="10" step="0.1" id="couchpotato_party">
 
                     </div>
 
@@ -47,39 +47,37 @@
                     <div class="card question">
                         <div class="card-body ">
                             <h1 class="card-title text-white">Where are you ?</h1>
-                            <p class="card-text text-white">With supporting text below as a natural lead-in to
-                                additional content.
+                            <p class="card-text text-white">Based on your location, we will add some
+                                additional content to your drink!
                             </p>
                             <br>
-                            <a href="#" class="btn btn-dark">indoor</a>
-                            <a href="#" class="btn btn-dark">outdoor</a>
+                            <div class="btn btn-dark where">indoor</div>
+                            <div  class="btn btn-dark where">outdoor</div>
                         </div>
                     </div>
                     <div class="card question">
                         <div class="card-body">
                             <h1 class="card-title text-white">Season ?</h1>
-                            <p class="card-text text-white">With supporting text below as a natural lead-in to
-                                additional content.
+                            <p class="card-text text-white">Based on your surrounding sesason, we will provide you best match! 
                             </p>
                             <br>
-                            <a href="#" class="btn btn-dark">Summer</a>
-                            <a href="#" class="btn btn-dark">Winter</a>
-                            <a href="#" class="btn btn-dark">Autumn</a>
-                            <a href="#" class="btn btn-dark">Spring</a>
+                            <div class="btn btn-dark season">Summer</div>
+                            <div class="btn btn-dark season">Winter</div>
+                            <div class="btn btn-dark season">Autumn</div>
+                            <div class="btn btn-dark season">Spring</div>
                         </div>
                     </div>
                     <div class="card question">
 
                         <div class="card-body">
                             <h1 class="card-title text-white">Occasions ?</h1>
-                            <p class="card-text text-white">With supporting text below as a natural lead-in to
-                                additional content.
+                            <p class="card-text text-white">Based on your occasion we will provide you best match!
                             </p>
                             <br>
-                            <a href="#" class="btn btn-dark">Weekend</a>
-                            <a href="#" class="btn btn-dark">Birthday</a>
-                            <a href="#" class="btn btn-dark">Christmas</a>
-                            <a href="#" class="btn btn-dark">Other</a>
+                            <div class="btn btn-dark occasion">Weekend</div>
+                            <div class="btn btn-dark occasion">Birthday</div>
+                            <div class="btn btn-dark occasion">Christmas</div>
+                            <div class="btn btn-dark occasion">Other</div>
                         </div>
                     </div>
 
@@ -94,16 +92,14 @@
 
 
             <h1 class="display-4 text-white">Fill out the Above details!</h1>
-            <p class="lead text-white">This is a simple hero unit, a simple jumbotron-style component for calling extra
-                attention
-                to featured content or information.</p>
+            <p class="lead text-white">According to the details you filled above, our Algorithm will suggest you, your taste, your cocktail!.</p>
             <hr class="my-4">
             <p class="lead">
-                <a class="btn btn-dark btn-lg text-white" href="#" role="button">Get My Tail</a>
+                <div class="btn btn-dark btn-lg text-white submit" href="#" role="button">Get My Tail</div>
             </p>
         </div>
     </div>
-
+<script src="index.js"></script>
 </body>
 
 </html>
